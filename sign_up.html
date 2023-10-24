@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+          body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+form {
+    text-align: center;
+}
+input{
+
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00e1ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="container">
+        <div class="container">
+            <form id="signup-form">
+                <h2>Sign Up</h2>
+                <p style="text-align: left;">Enter Name</p>
+                <input type="text" id="name" placeholder="Name" required> <br>
+                <p style="text-align: left;">Enter Email</p>
+                <input type="email" id="email" placeholder="Email" required> <br>
+                <p style="text-align: left;">Enetr Phone Number</p>
+                <input type="tel" id="phone" placeholder="Phone Number" required> <br>
+               <!--... <div>
+                     <label for="gender">Gender :</label>
+                   <p style="text-align: left;">Gender</p>
+                    <div>
+                    <input type="radio" id="male" name="gender" value="male"> Male
+                    <input type="radio" id="female" name="gender" value="female"> Female
+                </div >-->
+                <p style="text-align: left;">Enter DOB</p>
+                <input type="date" id="dob" required><br>
+                <p style="text-align: left;">Create Password</p>
+                <input type="password" id="password" placeholder="Create Password" required>
+               
+                <button type="submit">Sign Up</button>
+            </form>
+            <h4 style="text-align: center;">Already have an Account ?</h4>
+            <a href="/login.html" target="main"> <button type="submit">Go to login</button></a>
+ 
+        </div>
+        
+       
+</body>
+</html>
